@@ -1,7 +1,7 @@
 {
-  "name": "create-next-app",
-  "description": "Create Next.js apps in one command",
-  "version": "0.5.9",
+  "name": "create-argos-app",
+  "description": "Create Argos apps in one command",
+  "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
@@ -16,10 +16,7 @@
   "engines": {
     "node": ">=4"
   },
-  "repository": "segmentio/create-next-app",
-  "bugs": {
-    "url": "https://github.com/segmentio/create-next-app/issues"
-  },
+  "repository": "owennicol/create-next-app",
   "dependencies": {
     "@octokit/rest": "^15.9.4",
     "ansi-escapes": "^2.0.0",
