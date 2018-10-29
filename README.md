@@ -96,3 +96,9 @@ Starts the application in production mode.
 The application should be compiled with \`npm run build\` first.
 
 Now you're ready to code & deploy your app!
+
+## Things to do:
+
+- Take this out of Owen's personal github repo
+- CLI improvements
+- Proper documentation

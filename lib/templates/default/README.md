@@ -2,14 +2,6 @@ This project was bootstrapped with [Create Argos App](https://github.com/owennic
 
 Check out [Next.js repo](https://github.com/zeit/next.js) for the most up-to-date info.
 
-## Things to do:
-
-- Take this out of Owen's personal github repo
-- Use SASS instead of css-in-js
-- CLI improvements
-  - Many...
-- Proper documentation
-
 ## Table of Contents
 
 - [Questions? Feedback?](#questions-feedback)
