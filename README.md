@@ -5,22 +5,11 @@
 The easiest way to create a <a href="https://facebook.github.io/react">React</a> app with server-side rendering thanks to <a href="https://github.com/zeit/next.js">Next.js</a>
 </p>
 
-<!-- badges -->
-<p align="center">
-  <a href="https://github.com/unicodeveloper/awesome-nextjs"><img alt="Mentioned in Awesome Next JS" src="https://awesome.re/mentioned-badge.svg" /></a>
-</p>
-
 <!-- toc -->
 <p align="center">
     <em>
       <a href="#getting-started">Getting Started</a>
-      · <a href="https://github.com/segmentio/create-argos-app/blob/master/lib/templates/default/README.md">Starting from scratch with Create Next App</a>
-      · <a href="#starting-from-nextjs-examples">Starting from Next.js Examples</a>
     </em>
-</p>
-
-<p align="center">
-If you run into any issues or have feedback, please <a href="https://github.com/segmentio/create-argos-app/issues/new">file an issue</a>
 </p>
 
 ## Overview
@@ -33,14 +22,6 @@ If you run into any issues or have feedback, please <a href="https://github.com/
 
 Open [http://localhost:3000](http://localhost:3000) to view your running app.
 When you're ready for production, run the `build` then `start` scripts.
-
-<p align='center'>
-  <img width="600" alt="Create Next App running in terminal" src="media/init-app.png" />
-</p>
-
-<p align='center'>
-  <img width="600" alt="Create Next App running in terminal" src="media/dev-tree.png" />
-</p>
 
 ### Start Coding Now
 
