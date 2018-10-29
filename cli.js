@@ -17,8 +17,6 @@ program
   .action(function(name) {
     projectName = name
   })
-  .option('-e, --example <example-path>', messages.exampleHelp())
-  .allowUnknownOption()
   .on('--help', messages.help)
   .parse(process.argv)
 
