@@ -1,9 +1,9 @@
 {
   "name": "create-next-example-app",
   "scripts": {
-    "dev": "next",
+    "start": "next",
     "build": "next build",
-    "start": "next start"
+    "run": "next start"
   },
   "dependencies": {}
 }
