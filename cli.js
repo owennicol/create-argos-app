@@ -6,7 +6,7 @@ const lib = require('.')
 const pkg = require('./package.json')
 
 const messages = lib.messages
-const createNextApp = lib.createNextApp
+const createArgosApp = lib.createArgosApp
 
 let projectName
 
@@ -24,7 +24,7 @@ program
 
 const example = program.example
 
-createNextApp({
+createArgosApp({
   projectName,
   example
 })
