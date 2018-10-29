@@ -73,6 +73,7 @@ Out of the box, we get:
 - Hot code reloading
 - Server rendering and indexing of `./pages`
 - Static file serving. `./static/` is mapped to `/static/`
+- SCSS support with [next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 
 Once the installation is finished, you can run some commands in your project:
 

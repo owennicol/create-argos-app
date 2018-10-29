@@ -5,5 +5,8 @@
     "build": "next build",
     "run": "next start"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.0",
+    "node-sass": "4.9.4"
+  }
 }

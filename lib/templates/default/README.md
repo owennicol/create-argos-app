@@ -64,6 +64,7 @@ Out of the box, we get:
 - Hot code reloading
 - Server rendering and indexing of `./pages`
 - Static file serving. `./static/` is mapped to `/static/`
+- SCSS support with [next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 
 Read more about [Next's Routing](https://github.com/zeit/next.js#routing)
 
@@ -91,33 +92,17 @@ The application should be compiled with \`next build\` first.
 
 See the section in Next docs about [deployment](https://github.com/zeit/next.js/wiki/Deployment) for more information.
 
-## Using CSS
+## Using SCSS
 
-[`styled-jsx`](https://github.com/zeit/styled-jsx) is bundled with next to provide support for isolated scoped CSS. The aim is to support "shadow CSS" resembling of Web Components, which unfortunately [do not support server-rendering and are JS-only](https://github.com/w3c/webcomponents/issues/71).
+Use SCSS by creating a separate `.scss` file alongside your component or page and importing it
 
 ```jsx
-export default () => (
-  <div>
-    Hello world
-    <p>scoped!</p>
-    <style jsx>{`
-      p {
-        color: blue;
-      }
-      div {
-        background: red;
-      }
-      @media (max-width: 600px) {
-        div {
-          background: blue;
-        }
-      }
-    `}</style>
-  </div>
-)
-```
+import './Simple.scss'
 
-Read more about [Next's CSS features](https://github.com/zeit/next.js#css).
+const Simple = () => <div className="simple">Simple Component</div>
+
+export default Simple
+```
 
 ## Adding Components
 
