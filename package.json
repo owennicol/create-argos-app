@@ -11,12 +11,12 @@
     "precommit": "lint-staged"
   },
   "bin": {
-    "create-next-app": "./cli.js"
+    "create-argos-app": "./cli.js"
   },
   "engines": {
     "node": ">=4"
   },
-  "repository": "owennicol/create-next-app",
+  "repository": "owennicol/create-argos-app",
   "dependencies": {
     "@octokit/rest": "^15.9.4",
     "ansi-escapes": "^2.0.0",
@@ -32,14 +32,6 @@
     "promise": "^7.1.1",
     "tar": "^4.4.4"
   },
-  "keywords": [
-    "next",
-    "react",
-    "next.js",
-    "create-next-app",
-    "create-react-app",
-    "boilerplate"
-  ],
   "devDependencies": {
     "ava": "^1.0.0-beta.6",
     "babel-eslint": "^8.2.5",
