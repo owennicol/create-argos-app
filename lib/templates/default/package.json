@@ -4,7 +4,7 @@
     "start": "next",
     "build": "next build",
     "prod": "next start",
-    "test": "jest"
+    "test": "jest --config config/jest.config.js"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.0",
