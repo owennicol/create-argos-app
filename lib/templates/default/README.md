@@ -75,6 +75,7 @@ Out of the box, we get:
 - Server rendering and indexing of `./pages`
 - Static file serving. `./static/` is mapped to `/static/`
 - Redux and Redux Sagas
+- Testing with Jest
 - SCSS support with [next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 
 Read more about [Next's Routing](https://github.com/zeit/next.js#routing)

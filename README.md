@@ -92,6 +92,7 @@ Out of the box, we get:
 - Server rendering and indexing of `./pages`
 - Static file serving. `./static/` is mapped to `/static/`
 - Redux and Redux Sagas
+- Testing with Jest
 - SCSS support with [next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 
 Once the installation is finished, you can run some commands in your project:
