@@ -32,14 +32,15 @@
   width: 100%;
   color: #333;
 }
-.title {
-  margin: 0;
-  width: 100%;
-  padding-top: 20px;
-  line-height: 1.15;
-  font-size: 48px;
+.container {
+  max-width: 880px;
+  margin: 80px auto 40px;
 }
-.title,
+pre {
+  padding: 10px;
+  background-color: #fbfbfb;
+}
+.h1,
 .description {
   text-align: center;
 }
