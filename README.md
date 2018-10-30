@@ -18,7 +18,7 @@ The easiest way to create a <a href="https://facebook.github.io/react">React</a>
 | --- | ------------------------------------------------------ | ------------------------------------------------------------------- |
 | 1.  | `yarn create argos-app my-app`                                       |
 | 2.  | `cd my-app/`                                                        |
-| 3.  | `yarn dev`                                                          |
+| 3.  | `yarn start`                                                          |
 
 Open [http://localhost:3000](http://localhost:3000) to view your running app.
 When you're ready for production, run the `build` then `start` scripts.
