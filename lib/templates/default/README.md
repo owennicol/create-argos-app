@@ -9,7 +9,7 @@ Check out [Next.js repo](https://github.com/zeit/next.js) for the most up-to-dat
 - [Available Scripts](#available-scripts)
   - [yarn start](#yarn-start)
   - [yarn build](#yarn-build)
-  - [yarn run](#yarn-run)
+  - [yarn prod](#yarn-prod)
 - [Using CSS](#using-css)
 - [Adding Components](#adding-components)
 - [Fetching Data](#fetching-data)
@@ -77,10 +77,10 @@ You will also see any errors in the console.
 Builds the app for production to the `.next` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### `yarn run`
+### `yarn prod`
 
 Starts the application in production mode.
-The application should be compiled with \`next build\` first.
+The application should be compiled with \`yarn build\` first.
 
 See the section in Next docs about [deployment](https://github.com/zeit/next.js/wiki/Deployment) for more information.
 
@@ -154,7 +154,7 @@ Read more about [fetching data and the component lifecycle](https://github.com/z
 
 ## Custom Server
 
-Want to start a new app with a custom server? Run `create-next-app --example customer-server custom-app`
+Want to start a new app with a custom server? Run `create-argos-app --example customer-server custom-app`
 
 Typically you start your next server with `next start`. It's possible, however, to start a server 100% programmatically in order to customize routes, use route patterns, etc
 

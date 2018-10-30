@@ -3,10 +3,22 @@
   "scripts": {
     "start": "next",
     "build": "next build",
-    "run": "next start"
+    "prod": "next start",
+    "test": "jest"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.0",
+    "next": "^7.0.2",
     "node-sass": "4.9.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "^23.6.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "enzyme": "3.4.3",
+    "enzyme-adapter-react-16": "1.2.0",
+    "jest": "^23.6.0"
   }
 }

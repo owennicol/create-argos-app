@@ -90,10 +90,10 @@ You will also see any errors in the console.
 Builds the app for production to the `.next` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### `yarn run`
+### `yarn prod`
 
 Starts the application in production mode.
-The application should be compiled with \`npm run build\` first.
+The application should be compiled with \`yarn build\` first.
 
 Now you're ready to code & deploy your app!
 
@@ -101,4 +101,5 @@ Now you're ready to code & deploy your app!
 
 - Take this out of Owen's personal github repo
 - CLI improvements
+- Add Redux
 - Proper documentation

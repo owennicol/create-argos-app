@@ -14,7 +14,7 @@
     "create-argos-app": "./cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "repository": "owennicol/create-argos-app",
   "dependencies": {
