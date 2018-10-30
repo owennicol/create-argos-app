@@ -16,7 +16,7 @@ The easiest way to create a <a href="https://facebook.github.io/react">React</a>
 
 |     | [yarn create](https://yarnpkg.com/en/docs/cli/create) (Yarn 1.0.0+) |
 | --- | ------------------------------------------------------ | ------------------------------------------------------------------- |
-| 1.  | `yarn create next-app my-app`                                       |
+| 1.  | `yarn create argos-app my-app`                                       |
 | 2.  | `cd my-app/`                                                        |
 | 3.  | `yarn dev`                                                          |
 
