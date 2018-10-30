@@ -47,17 +47,35 @@ Minimum Requirements:
 ```
 .
 ├── README.md
+├── actions
+│   ├── actionTypes.js
+│   └── actions.js
 ├── components
 │   ├── head.js
 │   └── nav.js
+│   └── nav.scss
+├── config
+│   ├── [...]
+├── lib
+├── babel.config.js
 ├── next.config.js
 ├── node_modules
 │   ├── [...]
 ├── package.json
 ├── pages
+│   └── _app.js
+│   └── examples.js
 │   └── index.js
+│   └── index.scss
+│   └── started.js
+├── reducers
+│   └── reducer.js
 ├── static
 │   └── favicon.ico
+├── sagas
+│   └── saga.js
+├── store
+│   └── store.js
 └── yarn.lock
 ```
 
