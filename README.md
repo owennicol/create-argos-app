@@ -14,11 +14,11 @@ The easiest way to create a <a href="https://facebook.github.io/react">React</a>
 
 ## Overview
 
-|     | [npx](https://github.com/zkat/npx) & npm (Node 8.x.x+) | [yarn create](https://yarnpkg.com/en/docs/cli/create) (Yarn 1.0.0+) |
+|     | [yarn create](https://yarnpkg.com/en/docs/cli/create) (Yarn 1.0.0+) |
 | --- | ------------------------------------------------------ | ------------------------------------------------------------------- |
-| 1.  | `npx create-argos-app my-app`                          | `yarn create next-app my-app`                                       |
-| 2.  | `cd my-app/`                                           | `cd my-app/`                                                        |
-| 3.  | `npm run dev`                                          | `yarn dev`                                                          |
+| 1.  | `yarn create next-app my-app`                                       |
+| 2.  | `cd my-app/`                                                        |
+| 3.  | `yarn dev`                                                          |
 
 Open [http://localhost:3000](http://localhost:3000) to view your running app.
 When you're ready for production, run the `build` then `start` scripts.
