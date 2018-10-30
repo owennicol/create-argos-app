@@ -91,6 +91,7 @@ Out of the box, we get:
 - Hot code reloading
 - Server rendering and indexing of `./pages`
 - Static file serving. `./static/` is mapped to `/static/`
+- Redux and Redux Sagas
 - SCSS support with [next-sass](https://github.com/zeit/next-plugins/tree/master/packages/next-sass)
 
 Once the installation is finished, you can run some commands in your project:
@@ -119,5 +120,6 @@ Now you're ready to code & deploy your app!
 
 - Take this out of Owen's personal github repo
 - CLI improvements
-- Add Redux
+- Option to swap redux with [insert latest state management library]
 - Proper documentation
+- Add Argos linting 
